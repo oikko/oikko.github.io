@@ -1,0 +1,717 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0px;
+}
+ol li, ul li{
+    list-style-type: none;    
+}
+a{
+    text-decoration: none;
+     transition: 0.4s;
+     display: inline-block;
+}
+img{
+    vertical-align: middle;
+}
+
+.clr{
+    clear: both;
+}
+.container-full{
+    width: 100%;
+}
+.container{
+    width: 960px;
+    margin: 0 auto;
+    /* border: 1px solid #000; */
+}
+
+/* Cmn- 
+  font-family: 'Lato', sans-serif;  
+ */
+h1{
+    font-family: 'Lato', sans-serif;
+    font-size: 120px;
+    font-weight: 700px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 40px;
+}
+h2{
+    font-family: 'Lato', sans-serif;
+    font-size: 40px;
+    font-weight: 400px;
+    color: #2d3950;
+    /* text-transform:  */
+}
+h3{
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    font-weight: 700px;
+    color: #2d3950;
+    text-transform: uppercase;
+}
+h4{
+    font-family: 'Lato', sans-serif;
+    font-size: 22px;
+    font-weight: 400px;
+    color: #2d3950;
+    /* text-transform: capitalize; */
+}
+h5{
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 400px;
+    color: #fff;
+    /* text-transform: uppercase; */
+}
+h6{
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 700px;
+    color: #2d3950;
+    /* line-height: 1.5rem; */
+    /* transition: 0.6s; */
+
+}
+p{
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 400px;
+    color: #909090;
+
+}
+.btn{
+    padding: 20px 30px;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 400px;
+    color: #fff;
+    background: none;
+    border: 1px solid #15a4fa;
+    /* background-repeat: no-repeat; */
+    border-radius: 5px;
+    cursor: pointer;
+    
+
+}
+.btn:hover{
+    transition: 0.4s;
+    background: linear-gradient(to right, red, #15a4fa);
+    transform: scale(1.03);
+    border: none;
+}
+.extra-i:hover{
+    transition: 0.4s;
+    background: #15a4fa;
+    /* font-size: 60px; */
+    transform: scale(1.1);
+
+    /* color: #2baaf6; */
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+.ptb-80{
+    padding: 80px 0px;
+}
+.ptb-30{
+    padding: 30px 0px;
+}
+.mtb-40{
+    margin: 40px 0px;
+}
+.pt-25{
+    padding-top: 25px;
+}
+.mb-30{
+    margin-bottom: 30px;
+}
+.check{
+    padding-bottom: 30px;
+}
+/* NavBar Part start */
+
+.navbar-part{
+
+}
+.nav-lgo
+{
+    width: 40px;
+    float: left;
+    padding: 12px 0;
+    margin-right: 15px;
+
+}
+.nav-lgo img{
+    /* max-width: 120px; */
+    /* margin-top: 200px; */
+    width: 100px;
+}
+.nav-title{
+    width: 100px;
+    float: left;
+    padding: 15px 0px;
+    text-align: center;
+    /* margin-right: 290px; */
+    /* border: 1px solid #000; */
+
+}
+.nav-menu{
+    width: 800px;
+    /* border: 1px solid #000; */
+    float: right;
+    padding: 25px 0;
+}
+.nav-menu ul{
+    float: right;
+
+
+
+
+}
+.nav-menu ul li{
+    float: left;
+    margin-right: 30px;
+
+}
+.nav-menu ul li:nth-child(6){
+    margin-right: 0px;
+}
+.nav-menu ul li a h6{
+    color: black;
+}
+.nav-menu ul li a h6:hover{
+    /* color: red; */
+    
+    /* background: linear-gradient(to right, red, #15a4fa); */
+    /* font-size: 1px; */
+    transform: scale(1.05);
+    color: #15a4fa;
+    
+
+    /* color: #2baaf6; */
+    /* -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text; */
+
+}
+
+
+
+
+/* NavBar Part End */
+
+/* Header Part Start */
+
+.header-part{
+    background: url(../images/oikko-header-main.JPG);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-top: 210px;
+    /* height: 800px; */
+    padding-bottom: 90px; 
+    /* position: relative; */
+    text-align: center;
+
+
+}
+.container .header-title{
+    margin-top: -50px;
+    color:  black;
+}
+.container .header-line{
+    /* color: red; */
+    background-color: red;
+}
+.cmn-line{
+    /* position: absolute; */
+    width: 600px;
+    height: 2px;
+    /* top: 50px; */
+    /* padding: 10px; */
+    /* text-align: center; */
+    margin: 0 auto;
+    /* text-align: center; */
+    /* padding-top: 30px; */
+    background: #15a4fa;
+
+}
+.header-part .btn{
+    margin-top: 65px;
+}
+.header-part p{
+    font-size: 20px;
+    
+    /* line-height: 150%; */
+    /* line-height: 1.5; */
+    color: #fff;
+    padding-top: 40px;
+}
+.header-part .btn a{
+    color: #fff;
+}
+.header-icon i{
+    padding-top: 180px;
+    color: #fff;
+    font-size: 35px;
+}
+
+
+/* Header Part End */
+.hero-part{
+    padding: 80px 0px;
+
+}
+
+
+
+
+
+/* Hero Part Start */
+.hero-part{
+    background: #f6f9f9;
+
+}
+.cmn-heading{
+    text-align: center;
+}
+.cmn-heading p{
+    /* line-height: 1.5rem; */
+    line-height: 150%;
+}
+.hero-services{
+    padding: 80px 0;
+}
+.ser,  .gly{
+    width: 300px;
+    margin-right: 30px;
+    float: left;
+    /* height: 100%; */
+    /* border: 1px solid red; */
+    text-align: center;
+    /* overflow: hidden; */
+
+
+}
+.ser-box{
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    
+
+    background: #5fc3ff;
+    /* border: 1px solid red; */
+    border-radius: 5px;
+
+    padding: 10px 10px;
+    position: relative;
+    
+}
+.hero-services .ser-box i{
+    position: absolute;
+    /* text-align: center; */
+    font-size: 60px;
+    color: #fff;
+    /* margin: 0 auto; */
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    line-height: 405px;
+}
+.ser .icn-change i{
+    font-size: 52px;
+}
+.ser h4{
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+.ser p{
+    font-size: 15px;
+    line-height: 150%;
+
+}
+.ser:nth-of-type(3), .gly:nth-of-type(3),
+.gly:nth-of-type(6)
+
+{
+    margin-right: 0px;
+    /* background: red; */
+}
+
+/* .gly-overlay{
+    background: #1d9ceb;
+    height: 260px;
+    
+} */
+
+
+/* Donate-part */
+
+.donate-part .card img{
+    /* width: 300px; */
+    /* height: 200px; */
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+}
+
+
+/* donate-part-end */
+
+
+
+
+
+
+/* Hero Part End */
+
+/* Portfolio Part Start */
+.portfolio-part{
+    padding-top: 80px;
+    padding-bottom: 120px;
+    /* overflow: hidden; */
+
+}
+.portfolio-part .cmn-heading p{
+    padding-top: 10px;
+    padding-bottom: 80px;
+
+}
+.gly{
+    position: relative;
+    
+    
+}
+.gly img{
+    border-radius: 2px;
+    /* height: auto; */
+    /* z-index: 999; */
+    /* height: auto !important; */
+}
+.portfolio-part .project-img img{
+    max-width: 400px;
+    /* margin-right: 50px; */
+
+}
+.portfolio-part .project-img2{
+    margin-left: 100px;
+}
+
+.gly:nth-of-type(1),
+.gly:nth-of-type(2),
+.gly:nth-of-type(3){
+    padding-bottom: 30px;
+}
+
+.gly-overlay{
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 0px;
+    background: #2baaf6;
+    opacity: 0;
+    overflow-y: hidden !important;
+}
+.gly-overlay .sqaure ul{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-10%, -50%);
+    /* overflow: hidden; */
+    /* margin-left: 5px; */
+}
+.gly-overlay .sqaure{
+    
+    /* overflow: hidden !important; */
+}
+.gly-overlay .sqaure ul li{
+    display: inline-block;
+}
+.gly-overlay .sqaure ul a{
+    display: inline-block;
+    /* position: absolute; */
+    /* float: left; */
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    /* top: 50%; */
+    /* left: 50%; */
+    /* transform: translate(-50%, -50%); */
+    
+}
+.gly-overlay  i{
+    line-height: 40px;
+    color: #fff;
+}
+.gly:hover .gly-overlay{
+    opacity: 0.8;
+    /* height: 90%; */
+    transition: 0.4s;
+    /* overflow-y: hidden; */
+    height: 90%;
+    /* overflow-y: hidden !important; */
+
+}
+
+
+
+
+.container h1{
+    color: black;
+}
+.container .body-header{
+    font-size: 100px;
+
+}
+
+.container .donate-btn h3{
+
+  /* background-color: red; */
+  /* color:; */
+  text-transform: capitalize;
+  color: black;
+  /* text-transform: ; */
+    
+}
+.container .donate-btn a h3:hover{
+    text-decoration: none;
+}
+.container .donate-btn{
+    border-radius: 1px solid red;
+}
+.ser .donate-icn{
+    background-color: red;
+}
+.ser .volunter-icn {
+    background-color: mediumspringgreen;
+}
+.ser .facebook-icn{
+    background-color: blue;
+}
+
+
+
+.container .body-title{
+    color: black;
+    font-size: 30px;
+}
+
+
+/* Portfolio Part End */
+
+/* Team Part Start */
+.team-part{
+    
+}
+.team-part .cmn-header h4{
+    padding-top: 110px;
+    text-align: center;
+}
+.team{
+    width: 225px;
+    float: left;
+    /* */
+    padding-top: 100px;
+    text-align: center;
+    margin-right: 26px;
+    /* position: relative; */
+    
+
+}
+.team:nth-of-type(6){
+    margin-right: 0px;
+    /* border: 1px solid red; */
+}
+.team{
+    text-align: center;
+    transition: 0.4s;
+    
+}
+.team-img{
+    position: relative;
+    
+}
+.team-img img{
+    /* max-width: 200px; */
+    /* max-height: 800px; */
+    width: 200px;
+    height: 200px;
+    
+}
+.team  h3{
+    font-size: 15px;
+    color: #062033;
+    padding: 15px 0px 10px 0px;
+}
+.team p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 11px;
+    color: #98a3ab;
+    padding-bottom: 110px;
+
+}
+.cmn-hd-details{
+    text-align: center;
+}
+.team-overlay{
+    /* position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 0%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    opacity: 0; */
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 0%;
+    width: 100%;
+    background: #4c76ff;
+    text-align: center;
+    opacity: 0;
+    transition: 0.4s;
+
+}
+.team-img:hover .team-overlay{
+    opacity: 0.9;
+    height: 100%;
+    transition: 0.4s;
+
+}
+/* Team Part End */
+
+/* Contact part Start */
+.contact-part{
+    background: url(../images/cnct-img.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+    
+
+}
+.contact-part .contact-heading .stay-us h2{
+    color: red;
+}
+.contact-part .cmn-heading h2{
+   
+    color: #fff;
+}
+
+.contact-part .cmn-heading p{
+    color: #838589;
+    font-size: 15px;
+    padding-top: 15px;
+   
+}
+.cntct-overlay{
+    /* background: #2d3950; */
+    /* opacity: 0.8; */
+    background: #2d3950;
+    /* height: 100%; */
+    opacity: 0.85;
+    padding-top: 70px;
+    padding-bottom: 110px;
+}
+.cntct-form{
+    width: 560px;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    padding-top: 50px;
+    /* background: none; */
+}
+.cntct-form .name, .email, .message{
+    width: 100%;
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400px;
+    background: #2d3950;
+    margin-bottom: 20px;
+
+    padding: 25px 8px;
+    border: 2px solid #999999;
+    border-radius: 5px;
+
+}
+.checkbox{
+    
+    margin-top: 20px;
+}
+.cntct-form span{
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400px;
+    color: #fff;
+    margin-left: 5px;
+
+}
+.btn-check .btn{
+    /* float: right; */
+    /* margin-left: 0px !important; */
+    /* margin */
+    /* margin-left: 380px; */
+    width: 180px;
+    float: right;
+    padding: 16px;
+    cursor: context-menu;
+
+    /* border: 1px solid red; */
+    text-align: center;
+}
+.btn-check
+{
+    margin-right: -20px;
+}
+
+
+/* Contact Part End */
+/* Footer part start */
+.footer-part{
+    padding: 20px 0px;
+    background: #f6f9f9;
+}
+.footer-part p{
+    font-size: 15px;
+    padding: 15px 0px;
+    display: inline-block;
+}
+.ft-menu{
+    display: inline;
+}
+.footer-part ul{
+    float: right;
+}
+.footer-part ul li{
+    float: left;
+
+}
+.ft-menu ul li a{
+    height: 40px;
+    width: 40px;
+    border-radius: 5px;
+    text-align: center;
+    background: #15a4fa;
+    margin-right: 5px;
+
+}
+.ft-menu ul li a i{
+    font-size: 15px;
+    color: #fff;
+    /* line-height: 250%; */
+    /* line-height: 150px; */
+    line-height:  40px;
+
+}
+/* Footer part end  */
+
+
